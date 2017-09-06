@@ -1,0 +1,15 @@
+body {
+	text-align: center;
+	background-color: rgba(230, 230, 180, .3);
+}
+
+#container {
+	width: 300px;
+	height: 700px;
+	margin: 0 auto;
+}
+
+.listDiv {
+	border-radius: 10px;
+}
+

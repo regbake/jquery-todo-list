@@ -1,11 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hello Front-End</title>
+<meta charset="utf-8">
+<title>A to-do list with jQuery</title>
+<link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-  <h1>Hello Front-End</h1>
+	<h1> List of things to do: </h1>
+	<h2> After adding, click items to remove. </h2>
+	<form>
+		<input type="text" id="listItem" autofocus>
+		<button type="button" id="submitButton">  Add Item  </button>
+	</form>
+
+	<div id="container">
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+	<script src="js/style.js"></script>
 </body>
 </html>
